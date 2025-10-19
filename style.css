@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins";
+}
+
+header,
+main,
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* header */
+header {
+  height: 956px;
+}
+
+.mobile-text {
+  display: none;
+}
+
+.header-menu {
+  height: 676px;
+  width: 100%;
+  background: linear-gradient(to bottom, #919191 0%, #242424 90%);
+}
+
+.header-navigation {
+  padding-top: 20px;
+  position: relative;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 120px;
+  height: 40px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  background-color: #ff9f34;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-name a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.navmenu a {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+}
+.header-description {
+  position: relative;
+}
+
+.navmenu {
+  display: flex;
+  gap: 37px;
+  position: absolute;
+  top: 29px;
+  left: 544px;
+}
+
+.login {
+  display: flex;
+  gap: 24px;
+  position: absolute;
+  top: 21px;
+  right: 120px;
+}
+
+.login a {
+  text-decoration: none;
+  color: white;
+}
+
+.login-btn {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+.sign-btn {
+  font-size: 14px;
+}
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 118px;
+  height: 38px;
+  border: 1px solid white;
+}
+.signup:hover {
+  background-color: #ff9f34;
+  border: none;
+  transition: 0.3s;
+}
+
+.description-title {
+  display: flex;
+}
+
+.description {
+  width: 519px;
+  margin-top: 100px;
+  margin-left: 120px;
+}
+
+.description h1 {
+  color: white;
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.description p {
+  margin-top: 16px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.description button {
+  width: 165px;
+  height: 56px;
+  color: white;
+  background-color: #ff9f34;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 32px;
+  cursor: pointer;
+}
+
+.header-experience {
+  height: 280px;
+  background-color: #fff8f1;
+  display: grid;
+  grid-template-columns: 221px 202px 514px;
+  gap: 131px;
+  padding-top: 80px;
+  padding-left: 120px;
+}
+
+.experience-desc {
+  width: 514px;
+  height: 96px;
+}
+.typo h2 {
+  color: #1e1000;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+
+.typo p {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.5px;
+}
+
+.experience-desc {
+  width: 480px;
+  height: 96px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #1e1000b5;
+}
+.video-btn {
+  display: none;
+}
+.video-container {
+  position: absolute;
+  top: 0px;
+  left: 700px;
+  width: 700px;
+  max-width: 90%;
+  aspect-ratio: 16 / 9;
+  background: linear-gradient(to bottom, #747474 0%, #333333f5 90%);
+  overflow: hidden;
+}
+
+#play-toggle {
+  display: none;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+#play-toggle:checked + .play-btn + video {
+  display: block;
+}
+
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  background: rgb(248, 246, 246);
+  color: #000000;
+  border-radius: 50%;
+  font-size: 40px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#play-toggle:checked + .play-btn {
+  display: none;
+}
