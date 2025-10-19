@@ -797,4 +797,305 @@ h4 {
     color: #1e1000b5;
     width: 335px;
     height: 96px;
-    } }
+  }
+  /*main team section*/
+
+  .team-section {
+    width: 100%;
+    height: 600px;
+    position: relative !important;
+  }
+  .team-image {
+    width: 317px;
+    height: 272px;
+
+    position: absolute !important;
+    left: 24px;
+
+    z-index: 1;
+  }
+  .team-text {
+    width: 100%;
+    height: 491px;
+  }
+
+  .team-text h2 {
+    font-size: 24px;
+    width: 297px;
+    height: 108px;
+    line-height: 36px;
+    margin-left: 0;
+    position: absolute !important;
+    top: 280px;
+    margin-left: 24px;
+    z-index: 2;
+  }
+  .team-desc .mobile-text {
+    display: inline-block;
+    position: absolute !important;
+    width: 335px;
+    left: 24px;
+    top: 444px;
+    font-size: 16px;
+    line-height: 32px;
+  }
+  /* benefits section */
+  .benefits {
+    width: 327px;
+    height: 828px;
+    position: relative !important;
+  }
+  .benefits-img {
+    width: 327px;
+    height: 272px;
+    position: absolute !important;
+    top: 0;
+  }
+  .benefits-title .mobile-text {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 36px;
+    width: 226px;
+    height: 108px;
+    position: absolute !important;
+    top: 320px;
+    left: 24px;
+  }
+  .benefits-desc .mobile-text {
+    display: inline-block;
+    position: absolute !important;
+    width: 308px;
+    height: 64px;
+    font-size: 16px;
+    line-height: 32px;
+    /* left: 24px; */
+    top: 444px;
+    color: #1e1000b5;
+  }
+
+  .advantages {
+    position: absolute !important;
+    top: 540px;
+  }
+  .benefits-advantages {
+    display: flex;
+    align-items: center; /* Vertically center content */
+    padding: 10px;
+    max-width: 327px;
+    height: 80px;
+    position: relative !important;
+  }
+  .icon {
+    width: 52px;
+    height: 52px;
+    position: absolute !important;
+    top: 12px;
+    left: 12px;
+  }
+  .service-title {
+    position: absolute !important;
+    top: 13px;
+    left: 78px;
+    font-size: 18px;
+  }
+  .benefits-advantages .mobile-text {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: absolute !important;
+    top: 44px;
+  }
+
+  /* studies section */
+  .studies {
+    height: 637px;
+    width: 370px;
+    margin-left: 0px;
+    margin-top: 120px;
+    position: relative !important;
+    overflow-x: visible;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .studies-card {
+    height: 250px;
+    position: relative;
+    margin-right: 16px;
+  }
+  .studies-title h1 {
+    width: 259px;
+    font-size: 24px !important;
+    line-height: 36px;
+    position: absolute !important;
+  }
+  .studies-title .mobile-text {
+    display: inline-block;
+    position: absolute !important;
+    top: 128px;
+    padding-left: 0px;
+  }
+  .studies-img {
+    width: 300px;
+    height: 234px;
+    position: absolute !important;
+    top: 220px;
+  }
+
+  .studies-card h2 {
+    position: absolute !important;
+    top: 480px;
+
+    font-size: 18px;
+  }
+  .studies-card p {
+    position: absolute !important;
+    top: 510px;
+    padding-left: 0px;
+    font-size: 16px;
+  }
+
+  .date {
+    position: absolute !important;
+    top: 440px;
+    font-size: 16px;
+  }
+  .second-card .date {
+    width: 100px;
+  }
+  .second-card h2 {
+    width: 300px;
+  }
+
+  .third-card .date {
+    width: 100px;
+  }
+
+  .third-card h2 {
+    width: 200px;
+  }
+  /* questions */
+  .questions-cards {
+    overflow-x: visible;
+    flex-wrap: wrap;
+  }
+  .question-card {
+    flex: 1 1 calc(33.333% - 16px);
+    min-width: 0;
+  }
+
+  .questions-card {
+    width: 328px;
+    height: 470px;
+    overflow-x: visible;
+    flex-wrap: wrap;
+  }
+  .questions-card {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+  .questions-card h2 {
+    width: 330px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+    margin-left: 20px;
+  }
+  .close-quest {
+    display: none;
+  }
+  .questions-card .mobile-text {
+    display: inline-block;
+    width: 300px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 16px;
+    margin-left: 37px;
+  }
+  .question-card {
+    flex: 1 1 calc(33.333% - 16px);
+    min-width: 0;
+  }
+  .questions-section {
+    flex-direction: row;
+  }
+  .question-list {
+    border: none;
+    margin-left: 0px;
+  }
+  .open-quest .mobile-text {
+    width: 280px;
+    height: 60px;
+  }
+  /*footer light section*/
+  .footer-light {
+    width: 100%;
+    height: 318px;
+  }
+  .footer-light h2 {
+    font-size: 24px;
+    letter-spacing: 0.5px;
+  }
+  .footer-light .mobile-text {
+    display: inline-block;
+    color: #1e1000b5;
+    width: 286px;
+    height: 58px;
+    font-size: 16px;
+    line-height: 180%;
+  }
+
+  /* footer dark section  */
+  .footer-dark {
+    width: 100%;
+    height: 871px;
+    position: relative !important;
+  }
+  .footer-dark .header-logo {
+    position: absolute !important;
+    top: 20px;
+    margin-left: 24px;
+  }
+  .footer-section1 p {
+    width: 360px;
+    height: 64px;
+    margin-left: 24px;
+    margin-top: 32px;
+  }
+
+  .socials {
+    margin-left: 24px;
+    margin-top: 32px;
+  }
+  .links {
+    position: absolute !important;
+    top: 320px;
+    left: 24px;
+  }
+  .resources {
+    position: absolute !important;
+    top: 325px;
+    left: 159px;
+  }
+
+  .office {
+    position: absolute !important;
+    top: 621px;
+    left: 24px;
+  }
+  .footer-ending {
+    position: absolute !important;
+    top: 801px;
+  }
+  .footer-ending p {
+    margin: 0 auto;
+    margin-top: 24px;
+    text-align: center;
+  }
+  .studies {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+}
